@@ -1,7 +1,8 @@
 
 #include "graphics.h"
 #include "picture.hpp"
-void sun() {
+
+void sun(){
    setfillstyle(SOLID_FILL, COLOR(255,195,85));
    setcolor(COLOR(255,195,85));
    fillellipse(300,300,100,100);
